@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CSS Recipes & Layouts</title>
+    <meta charset="utf-8" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet" />
+    <link href="libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <header>
+        <section class="wrapper">
+
+            <div class="header-line bar-border">
+                <ul class="nav-tabs nav-tab-left">
+                    <li class="nav-tab-first-elem">
+                        <a href="">
+                            <img class="svg-icon" src="icons/menu.svg" />
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="header-line brand-border">
+                <a class="brand" href="">
+                    <img class="brand-deco" src="icons/Deco.png" alt="" />
+                    <img src="icons/Blog.png" alt="" />
+                </a>
+            </div>
+
+            <div class="header-line navigation-border">
+
+                <nav>
+                    <ul class="nav-tabs nav-tab-right">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-rss" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-tumblr" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </section>
+    </header>
+
+    <section class="top-image">
+        <div class="top-image-first-part">
+            <img class="main-image" src="img/main-image.png" alt="Invalid image path" />
+        </div>
+
+        <div class="top-image-tagline">
+            <div class="top-image-tagline-short-info"><span>Latest News</span></div>
+            <div class="top-image-tagline-tag"><h1>BODYBUILDING BEST FOR YOU HEALTH</h1></div>
+        </div>
+
+        <div class="slider-controller">
+            <div class="slider-controller-icons">
+                <img class="slider-controller-icon-1" src="icons/box.svg" alt="" />
+                <img class="slider-controller-icon-2" src="icons/box.svg" alt="" />
+                <img class="slider-controller-icon-3" src="icons/box.svg" alt="" />
+            </div>
+
+            <div class="slider-controller-buttons">
+                <div class="slider-controller-arrow">
+                    <span> &#10229;</span>
+                </div>
+
+                <div class="slider-controller-info"><span>FEATURED ARTICLE</span></div>
+
+                <div class="slider-controller-arrow">
+                    <span> &#10230;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-image-second-part"></div>
+    </section>
+
+    <section class="newsletter">
+        <section class="wrapper">
+            <div class="newsletter-info">
+                <span>
+                    SIGNUP TO NEWSLETTER
+                </span>
+            </div>
+
+            <div class="newsletter-function">
+                <form name="subscribeToNewsletter" action="/" method="post">
+                    <div class="subscribeToNewsletter-container"><input class="input input-text-box" type="text" required placeholder="YOUR NAME" value="" /></div>
+                    <div class="subscribeToNewsletter-container"><input id="email-input" class="input input-text-box" type="email" required placeholder="YOUR EMAIL ADDRESS" value="" /></div>
+                    <div class="subscribeToNewsletter-container"><input class="input input-submit" type="submit" value="SUBSCRIBE NOW" /></div>
+                </form>
+            </div>
+
+
+        </section>
+    </section>
+
+    <section class="news">
+        <section class="wrapper">
+
+            <div class="news-column">
+
+                <article class="node-frame node-delete-margin">
+
+                    <header class="node-header">
+                        <div class="node-header-icon-frame">
+                            <img class="node-header-icon" - src="icons/pencil.svg" />
+                        </div>
+                        <h3 class="node-header-info">TRAVELLING</h3>
+                    </header>
+
+                    <h2 class="node-body-name">TRAVEL BEST ADVENTURE</h2>
+                    <h3 class="node-body-date">JANUARY 25, 2016</h3>
+                    <p class="node-body-text">Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim &nbsp;vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.</p>
+
+                    <!--<div class="node-body-read-more-horizon-line-top"></div>-->
+                    <input class="node-body-read-more" type="button" name="readmore" value="READ MORE" />
+                    <!--<div class="node-body-read-more-horizon-line"></div>-->
+
+                    <footer class="node-footer">
+                        <div class="node-footer-coments">
+                            <p class="node-footer-coments-text">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                NO COMMENT
+                            </p>
+                        </div>
+
+                        <div class="node-footer-social-network">
+                            <div class="node-footer-social-network-icons">
+                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </article>
+
+                <article class="node-frame empty-node"></article>
+
+                <article class="node-frame node-delete-margin node-background node-frame-without-icon">
+
+                    <header class="node-header node-header-without-icon">
+                        <h3 class="node-header-info node-header-info-without-icon">TRAVELLING</h3>
+                    </header>
+
+                    <h2 class="node-body-name">TRAVEL BEST ADVENTURE</h2>
+                    <h3 class="node-body-date">JANUARY 25, 2016</h3>
+                    <p class="node-body-text">
+                        Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts
+                        laboasre et dolhvaliqua. Ut enim &nbsp;vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo
+                        tehampor incididunt uts laboasre etsa iusmod tehampor incididunt uts hav- laboasre et dolhvaliqua. Ut enim &nbsp;vem,
+                        choice is the have great work.
+                    </p>
+
+                    <!--<div class="node-body-read-more-horizon-line-top"></div>-->
+                    <input class="node-body-read-more" type="button" name="readmore" value="READ MORE" />
+                    <!--<div class="node-body-read-more-horizon-line"></div>-->
+
+                </article>
+            </div>
+
+            <div class="news-column">
+
+                <article class="node-frame node-delete-margin node-frame-node-in-node">
+                    <div class="node-in-node">
+                        <header class="node-header">
+                            <div class="node-header-icon-frame node-header-icon-frame-fix">
+                                <img class="node-header-icon node-header-icon-fix" src="icons/scene.svg" />
+                            </div>
+                            <h3 class="node-header-info node-header-info-fix">TRAVELLING</h3>
+                        </header>
+
+                        <h2 class="node-body-name node-body-name-fix">STANDARD IMAGE POST</h2>
+                        <h3 class="node-body-date">JANUARY 25, 2016</h3>
+
+                        <!--<div class="node-body-read-more-horizon-line-top"></div>-->
+                        <input class="node-body-read-more node-body-read-more-fix" type="button" name="readmore" value="READ MORE" />
+                        <!--<div class="node-body-read-more-horizon-line"></div>-->
+
+                        <footer class="node-footer">
+                            <div class="node-footer-coments">
+                                <p class="node-footer-coments-text node-footer-coments-text-fix">
+                                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                    06 COMMENT
+                                </p>
+                            </div>
+
+                            <div class="node-footer-social-network">
+                                <div class="node-footer-social-network-icons">
+                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                        </footer>
+                    </div>
+
+
+                </article>
+
+                <article class="node-frame node-quote">
+
+                    <header class="node-header node-header-quote">
+                        <div class="node-header-icon-frame node-header-icon-frame-fix node-header-icon-frame-white ">
+                            <img class="node-header-icon node-header-icon-fix" src="icons/quote.png" />
+                        </div>
+                    </header>
+
+                    <p class="node-quote-text">
+                        As per Lorm ipsum dolor sitamet,
+                        consectetur adipisicing elits, sed do Now eiusmod tempor havei ut labores et dolore magna aliqusa. Ut wenim ad minim veniam, quis
+                        its a snostrud now is the ullamco
+                        aliquip ex ea commodo .
+                    </p>
+
+                    <h3 class="node-quote-author">NATHALIA ALEXY</h3>
+
+                </article>
+
+                <article class="node-frame node-delete-margin node-frame-563">
+
+                    <header class="node-header node-header-other">
+                        <div class="node-header-icon-frame">
+                            <img class="node-header-icon node-header-icon-fix-2" src="icons/video.svg" />
+                        </div>
+
+                        <div class="v-player">
+                            <img class="v-player-controller" src="img/video-player.png" />
+                        </div>
+
+                    </header>
+                    <h3 class="node-header-info node-header-info-player">DESIGNER</h3>
+
+                    <h2 class="node-body-name">VIDEO IMAGE POST STYLE</h2>
+                    <h3 class="node-body-date">JANUARY 25, 2016</h3>
+                    <p class="node-body-text node-body-text-fix-2">A CONAN staffer is learning the rules of the in &nbsp;road, with a little help from Look out, fellow drivers!</p>
+
+
+                    <footer class="node-footer">
+                        <div class="node-footer-coments">
+                            <p class="node-footer-coments-text">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                NO COMMENT
+                            </p>
+                        </div>
+
+                        <div class="node-footer-social-network">
+                            <div class="node-footer-social-network-icons">
+                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </article>
+
+            </div>
+
+            <div class="news-column">
+
+                <article class="node-frame node-delete-margin node-frame-397">
+
+                    <header class="node-header">
+                        <div class="node-header-icon-frame">
+                            <img class="node-header-icon" - src="icons/pencil.svg" />
+                        </div>
+                        <h3 class="node-header-info node-header-info-fix-2">FASHION</h3>
+                    </header>
+
+                    <h2 class="node-body-name">SIMPLE POST STYLE</h2>
+                    <h3 class="node-body-date">JANUARY 02, 2016</h3>
+                    <p class="node-body-text">Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor choice is the have great work.</p>
+
+                    <!--<div class="node-body-read-more-horizon-line-top"></div>-->
+                    <input class="node-body-read-more node-body-read-more-fix-2" type="button" name="readmore" value="READ MORE" />
+                    <!--<div class="node-body-read-more-horizon-line"></div>-->
+
+                    <footer class="node-footer">
+                        <div class="node-footer-coments">
+                            <p class="node-footer-coments-text">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                NO COMMENT
+                            </p>
+                        </div>
+
+                        <div class="node-footer-social-network">
+                            <div class="node-footer-social-network-icons">
+                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </article>
+
+                <article class="node-frame node-frame-553">
+
+                    <div class="node-frame-553-pre-head">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <header class="node-header node-header-553">
+                        <div class="node-header-icon-frame">
+                            <img class="node-header-icon node-header-icon-fix" src="icons/scene.svg" />
+                        </div>
+                        <h3 class="node-header-info">ADVENTURES</h3>
+                    </header>
+
+                    <h2 class="node-body-name">AWESOME GALLERY POST</h2>
+                    <h3 class="node-body-date">JANUARY 19, 2016</h3>
+
+                    <div class="node-body-read-more-horizon-line-top"></div>
+                    <input class="node-body-read-more node-body-read-more-553" type="button" name="readmore" value="READ MORE" />
+                    <div class="node-body-read-more-horizon-line"></div>
+
+                    <footer class="node-footer">
+                        <div class="node-footer-coments">
+                            <p class="node-footer-coments-text">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                02 COMMENT
+                            </p>
+                        </div>
+
+                        <div class="node-footer-social-network">
+                            <div class="node-footer-social-network-icons">
+                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </article>
+
+                <article class="node-frame node-frame-175">
+
+                    <header class="node-header node-header-link">
+                        <div class="node-header-icon-frame node-header-icon-frame-fix node-header-icon-frame-white">
+                            <img class="node-header-icon node-header-icon-fix-2" src="icons/link.svg" />
+                        </div>
+                    </header>
+
+                    <p class="node-link-p">
+                        <a class="node-link" target="_blank" href="http://www.abcdomainname.com/screen/discovery">http://www.abcdomainname.com/ screen/discovery</a>
+                    </p>
+
+
+                </article>
+
+                <article class="node-frame node-frame-287">
+
+                    <header class="node-header">
+                        <div class="node-header-icon-frame node-header-icon-frame-white">
+                            <img class="node-header-icon node-header-icon-fix-3" src="icons/other.svg" />
+                        </div>
+                    </header>
+
+                </article>
+
+            </div>
+
+            <div class="news-column">
+
+                <article class="node-frame node-delete-margin empty-node"></article>
+
+                <article class="node-frame node-frame-other-margin">
+
+                    <header class="node-header">
+                        <div class="node-header-icon-frame">
+                            <img class="node-header-icon" - src="icons/pencil.svg" />
+                        </div>
+                        <h3 class="node-header-info">LIFESTYLE</h3>
+                    </header>
+
+                    <h2 class="node-body-name">WITHOUT IMAGE POST</h2>
+                    <h3 class="node-body-date">JANUARY 07, 2016</h3>
+                    <p class="node-body-text">Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  &nbsp;vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.</p>
+
+                    <!--<div class="node-body-read-more-horizon-line-top"></div>-->
+                    <input class="node-body-read-more" type="button" name="readmore" value="READ MORE" />
+                    <!--<div class="node-body-read-more-horizon-line"></div>-->
+
+                    <footer class="node-footer">
+                        <div class="node-footer-coments">
+                            <p class="node-footer-coments-text">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                NO COMMENT
+                            </p>
+                        </div>
+
+                        <div class="node-footer-social-network">
+                            <div class="node-footer-social-network-icons">
+                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </article>
+
+                <article class="node-frame node-delete-margin">
+
+                    <header class="node-header">
+                        <div class="node-header-icon-frame">
+                            <img class="node-header-icon node-header-icon-fix" src="icons/audio.svg" />
+                        </div>
+                        <h3 class="node-header-info">AUDIO MUSIC</h3>
+                    </header>
+
+                    <h2 class="node-body-name">BEST AUDIO PLAYER POST</h2>
+                    <h3 class="node-body-date">DECEMBER 29, 2015</h3>
+
+                    <div class="node-play-button"></div>
+
+                </article>
+
+            </div>
+
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-container-up">
+                <section class="wrapper">
+                    <div class="footer-container-up-container">
+                        <div class="footer-container-up-container-head">
+                            <p>ABOUT BLOG</p>
+                        </div>
+
+                        <div class="footer-container-up-container-main">
+                            <p class="footer-container-up-container-main-about-blog-text">Lorem ipsum dolor sit amet, conser adipisicing&nbsp; esse cillum dolore nulla pariatur. </p>
+
+                            <div class="footer-container-up-container-main-author">
+                                <p>Nathaliya Jhone</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-container-up-container">
+                        <div class="footer-container-up-container-head">
+                            <p>LATEST TWEETS</p>
+                        </div>
+
+                        <div class="footer-container-up-container-main">
+                            <p class="footer-container-up-container-main-twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                &nbsp;@Twitter@<span>magicalrebekah</span>
+                            </p>
+                            <p class="footer-container-up-container-latest-tweet-text">
+                                Developer Advocate @heyval isaiyou knows the very well is about things .
+                            </p>
+
+                            <p class="footer-container-up-container-main-twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                &nbsp;@Twitter@<span>magicalrebekah</span>
+                            </p>
+                            <p class="footer-container-up-container-latest-tweet-text">
+                                Developer Advocate hav a great work this knows the very well is about things .
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer-container-up-container">
+                        <div class="footer-container-up-container-head">
+                            <p>FOLLOW ME INSTAGRAM</p>
+                        </div>
+
+                        <div class="footer-container-up-container-main">
+                            <div class="footer-container-up-container-main-instagram-fix">
+                                <div class="footer-container-up-container-main-instagram"></div>
+                                <div class="footer-container-up-container-main-instagram"></div>
+                                <div class="footer-container-up-container-main-instagram"></div>
+                                <div class="footer-container-up-container-main-instagram"></div>
+                                <div class="footer-container-up-container-main-instagram"></div>
+                                <div class="footer-container-up-container-main-instagram"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="footer-container-up-container">
+                        <div class="footer-container-up-container-head">
+                            <p>LATEST COMMENT</p>
+                        </div>
+
+                        <div class="footer-container-up-container-main">
+                            <p class="footer-container-up-container-main-comment-author">
+                                From Alex :
+                            </p>
+
+                            <p class="footer-container-up-container-main-comment">
+                                Developer Advocate @heyval isaiyou know the very well is talking about things .
+                            </p>
+
+                            <hr />
+
+                            <p class="footer-container-up-container-main-comment-author">
+                                From Jhon Doe :
+                            </p>
+
+                            <p class="footer-container-up-container-main-comment">
+                                Developer Advocate @heyval isaiyou know the very well is talking about things .
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-container-down">
+                <div class="all-right-reserved">
+                    <pre>
+                        @2015 COPYRIGHT .ALL RIGHT RESERVED BY AWESOME THEME    |   <a href="#">TERMS POLICY</a>    |   <a href="#">DISCLAIMER</a>
+                         </pre>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
